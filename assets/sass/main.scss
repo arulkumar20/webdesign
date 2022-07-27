@@ -1,16 +1,31 @@
 // Abstract
-@import "./abstract/variable";
+@import "./abstract/mixins";
 
 // Base
 @import "./base/reset";
-@import "./base/globle";
+@import "./base/global";
 
-//layout
+// Components
+@import "./components/buttons";
+@import "./components/badges";
+@import "./components/forms";
 
-@import "./layout/header";
+// Layouts
+@import "./layouts/header";
+@import "./layouts/background_elements";
+@import "./layouts/footer";
 
-//Component
-@import "./components/button";
+// Utilities
+@import "./utilities/animations";
+@import "./utilities/spacing";
+
+// Pages
+@import "./pages/home";
+@import "./pages/about";
+@import "./pages/roadmap";
+@import "./pages/courses";
+@import "./pages/contact";
+
 
 
 
